@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!-- The new doctype -->
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Gopi's food page</title>
@@ -8,70 +8,51 @@
         <meta charset="UTF-8">
     </head>
 
-    <body>
-
-    	<section id="page"> <!-- Defining the #page section with the section tag -->
-
-            <header> <!-- Defining the header section of the page with the appropriate tag -->
-                
-                <hgroup>
-                    
-					<h1>My favorite food</h1>
-                    <img src="images/Favicon.jpg" alt="Chef logo" width="100" height="100">
-					<h3>Food is fuel eat to live!</h3>
-				</hgroup>
-
-                <nav class="clear"> <!-- The nav link semantically marks your main site navigation -->
+    <body class="site-bg1">
+        <div class="bclass"></div>
+    	<section id="page">
+            <header>
+                <img src="images/Favicon.jpg" alt="Chef logo" width="100" height="100"><h1>My favorite food</h1>
+                <nav class="clear">
                     <ul>
                         <li><a href="#article1">Breakfast</a></li>
                         <li><a href="#article2">Chinese food</a></li>
 						<li><a href="#article3">Indian food</a></li>
                         <li><a href="#article4">Mexican food</a></li>
+                        <li><a href="email.html">Email us</a></li>
                     </ul>
                 </nav>
 
             </header>
 
-            <section id="articles"> <!-- A new section with the articles -->
+            <section id="articles">
+				<h3 class="tagline">Food is fuel eat to live!</h3>
 
-				<!-- Article 1 start -->
+                <div class="line"></div>
 
-                <div class="line"></div>  <!-- Dividing line -->
-
-                <article id="article1"> <!-- The new article tag. The id is supplied so it can be scrolled into view. -->
-                    <h2>Breakfast<a class="go_up" href="#" class="up"><img src="images/art1.jpg"width="100" height="40"> </a></h2>
-
+                <article id="article1">
+                    <h2>Breakfast<a class="go_up" href="#"><img src="images/uparrow.png" alt="Breakfast" width="30" height="30" /></a></h2>
                     <div class="line"></div>
-
                     <div class="articleBody clear">
-
-                    	<figure> <!-- The figure tag marks data (usually an image) that is part of the article -->
-	                    	<a href="https://unsplash.com/photos/hrlvr2ZlUNk">
+                        <figure>
+	                    	<a target="_blank" href="Breakfast.html" rel="Breakfast">
                                 <img src="images/Breakfast.jpg" alt="Breakfast" width="500" height="300">
                             </a>
                         </figure>
 
-                        <p>Breakfast is often called ‘the most important meal of the day’, and for good reason. As the name suggests, breakfast breaks the overnight fasting period. It replenishes your supply of glucose to boost your energy levels and alertness, while also providing other essential nutrients required for good health.</p>
-                        <p>The body’s energy source is glucose. Glucose is broken down and absorbed from the carbohydrates you eat. The body stores most of its energy as fat. But your body also stores some glucose as glycogen, most of it in your liver, with smaller amounts in your muscles.</p>
+                        <p>Breakfast is often called ‘the most important meal of the day’, and for good reason. As the name suggests, breakfast breaks the overnight fasting period. It replenishes your supply of glucose to boost your energy levels and alertness, while also providing other essential nutrients required for good health.There’s also no need to limit these healthy breakfast recipes to the morning hours, friends</p>
+                        <p>The body’s energy source is glucose. Glucose is broken down and absorbed from the carbohydrates you eat. The body stores most of its energy as fat. But your body also stores some glucose as glycogen, most of it in your liver, with smaller amounts in your muscles.A gourmet breakfast isn’t a realistic everyday goal. But that doesn’t mean we should settle for a sugar rush that’ll leave us sad and hungry a half-hour later.</p>
 						<p class="pbold">Click on the image for more information</p>
                     </div>
                 </article>
-
-				<!-- Article 1 end -->
-
-
-				<!-- Article 2 start -->
-
                 <div class="line"></div>
 
                 <article id="article2">
-                    <h2>Chinese food<a class="go_up" href="#" class="up"><img src="images/art2.jpg"width="100" height="40"></a></h2>
-
+                    <h2>Chinese food<a class="go_up" href="#"><img src="images/uparrow.png" alt="Chinese food" width="30" height="30"></a></h2>
                     <div class="line"></div>
-
                     <div class="articleBody clear">
                     	<figure>
-                            <a href="https://unsplash.com/photos/LR559Dcst70">
+                            <a target="_blank" href="Chinesefood.html" rel="Chinese food">
                                 <img src="images/Chinese_food.jpg" alt="Chinese food" width="500" height="300">
                             </a>                        
                         </figure>
@@ -81,21 +62,16 @@
 						<p class="pbold">Click on the image for more information</p>
                     </div>
                 </article>
-
-				<!-- Article 2 end -->
-
-				<!-- Article 3 start -->
-
                 <div class="line"></div>
 
                 <article id="article3">
-                    <h2>Indian food<a class="go_up" href="#" class="up"><img src="images/art3.jpg"width="100" height="40"></a></h2>
+                    <h2>Indian food<a class="go_up" href="#"><img src="images/uparrow.png" alt="Indian food" width="30" height="30"></a></h2>
 
                     <div class="line"></div>
 
                     <div class="articleBody clear">
                     	<figure>
-	                    	<a href="https://unsplash.com/photos/ZSukCSw5VV4">
+	                    	<a target="_blank" href="Indianfood.html" rel="Indian food">
                                 <img src="images/Indian_food.jpg" alt="Indian food" width="500" height="300">
                             </a>
                         </figure>
@@ -106,47 +82,35 @@
                         <p class="pbold">Click on the image for more information</p>
                     </div>
                 </article>
-
-				<!-- Article 3 end -->
-
-				<!-- Article 4 start -->
-
                 <div class="line"></div>
 
                 <article id="article4">
-                    <h2>Mexican food<a class="go_up" href="#" class="up"><img src="images/art4.jpg"width="100" height="40"></a></h2>
+                    <h2>Mexican food<a class="go_up" href="#"><img src="images/uparrow.png" alt="Mexican food" width="30" height="30"></a></h2>
 
                     <div class="line"></div>
 
                     <div class="articleBody clear">
                     	<figure>
-	                    	<a href="https://unsplash.com/photos/Y0zbn9lPCEU">
+	                    	<a target="_blank" href="Mexicanfood.html" rel="Mexican food">
                                 <img src="images/Mexican_food.jpg" alt="Mexican food" width="500" height="300">
                             </a>
                         </figure>
 
                         <p>Mexican food has a vibrant history and is tied to the heart of Mexican culture and values. Indeed, one of the best ways to understand your Mexican heritage is to understand its food.Tacos are one of the easiest items in the Mexican diet to keep healthy. If you DIY, you can control not only what you fill a taco shell with, but you can also control the portions.</p>
-                        <p>Cooking and celebrating with traditional Mexican foods is a great way to remember ancestors and understand your heritage. Eating recipes from your heritage while chatting around the dinner table is a tradition you can create in your home.</p>
+                        <p>Cooking and celebrating with traditional Mexican foods is a great way to remember ancestors and understand your heritage. Eating recipes from your heritage while chatting around the dinner table is a tradition you can create in your home.Authentic Mexican food is more than tacos and salsa. Check out our favorite Mexican dishes: churros, elote, barbacoa, posole and more. </p>
 						<p class="pbold">Click on the image for more information</p>
                     </div>
                 </article>
-
-				<!-- Article 4 end -->
-
             </section>
+            <footer>
 
-        <footer> <!-- Marking the footer section -->
+                <div class="line"></div>
+                <a href="mailto:gopipatel102@gmail.com">Contact Us</a><br>
+                <a target="_blank" href="https://therecipecritic.com/" >copyright 2021 - Gopi'sfoodPage.com</a>
 
-           <div class="line"></div>
+            </footer>
 
-           <p>copyright 2021 - Gopi'sfoodPage.com</p> <!-- Change the copyright notice -->
-
-           <a target="_blank" href="https://www.google.com/search?sxsrf=ALeKk03I174wR3KjRboYuLzvdosqnKLBvA:1614812464621&q=Why+do+we+need+food&sa=X&ved=2ahUKEwiBgtSanZXvAhUgFFkFHS6kDjwQ1QIwCnoECBQQAQ&biw=1920&bih=880" > Gopi's Website</a>
-
-
-        </footer>
-
-		</section> <!-- Closing the #page section -->
+		</section>
 
     </body>
 </html>

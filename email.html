@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gopi's food page</title>
+        <link href="./images/Chef.jpg" rel="icon">
+		<link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/main3.css" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+
+    <body class="site-bg1">
+
+    	<section id="page">
+
+            <header>
+                
+                <img src="images/Favicon.jpg" alt="Chef logo" width="100" height="100"><h1>My favorite food</h1>
+                <nav class="clear">
+                    <ul>
+                        <li><a href="default.html">Home page</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <section id="articles">
+
+                <h3 class="tagline">Food is fuel eat to live!</h3>
+                <div class="line"></div>
+
+                <article id="article1">
+                    <h2>Email Sign up<a class="go_up" href="#"></a></h2>
+                   
+                    <div class="line"></div>
+
+                    <div class="articleBody clear">
+                        <p class="columns">
+                            <img src="./images/email-us.png" alt="Email_us" title="Email_us" width="250" height="300">
+                        </p>
+                        <form class="contact-form" method="POST" action="#">
+                            <div id="contactme">
+                                <fieldset>
+                                    <legend>Sign up</legend>
+                                
+                                    <label for="fname">Full Name :</label><br>
+                                    <input type="text" id="fname" name="fullname" required placeholder="Enter full name" autofocus/><br><br>
+                                    
+                                    <label for="Address">Address :</label><br>
+                                    <input type="text" id="Address" required name="Address" placeholder="Enter Address" /><br><br>
+                                    
+                                    <label for="phone">Phone Number :</label><br>
+                                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="xxx-xxx-xxxx"/><br><br>
+
+                                    <label>Please select your food dishes :</label><br><br>
+                                    <input type="checkbox" id="Southindianfood" name="Indian Food" value="South indian food">
+                                    <label for="Southindianfood">South indian food</label><br>
+                                    <input type="checkbox" id="Panjabifood" name="Indian Food" value="Panjabi food">
+                                    <label for="Panjabifood"> Panjabi food</label><br>
+                                    <input type="checkbox" id="Gujratifood" name="Indian Food" value="Gujrati food">
+                                    <label for="Gujratifood">Gujrati food</label><br><br>
+
+                                    <label>Please select your gender :</label><br><br>
+                                    <input type="radio" id="male" name="gender" value="male" />
+                                    <label for="male">Male</label><br>
+                                    <input type="radio" id="female" name="gender" value="female" />
+                                    <label for="female">Female</label><br>
+                                    <input type="radio" id="other" name="gender" value="other" />
+                                    <label for="other">Other</label><br><br>
+
+                                    <label>Please select your age :</label>
+                                    <select name="age" id="age">
+                                        <option value="age">18-29</option>
+                                        <option value="age">30-40</option>
+                                        <option value="age">40-60</option>
+                                        <option value="age">60+</option>
+                                    </select><br><br>
+
+                                    <label for="Comment">Comment :</label><br>
+                                    <textarea id="Comment" rows="4" cols="50" required placeholder="Please enter your Comments here.."></textarea><br><br>
+
+                                    <input type="submit" value="Submit"  />
+                                    <input type="reset" value="Reset"  />
+                                </fieldset>
+                            </div>
+                        </form>
+                    </div>
+                </article>
+
+			</section>
+            <footer>
+                <div class="line"></div>
+                <a href="mailto:gopipatel102@gmail.com">Contact Us</a><br>
+                <a target="_blank" href="https://therecipecritic.com/" >copyright 2021 - Gopi'sfoodPage.com</a>
+            </footer>
+
+		</section>
+
+    </body>
+</html>
